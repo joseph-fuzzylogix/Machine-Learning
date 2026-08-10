@@ -9,7 +9,7 @@ This repository is an analysis workspace. Follow this order every time:
 
 1. Read `docs/REQUIREMENTS.md` first. If it is incomplete, update it from the user's goals before deep analysis.
 2. Expect source files in `data/raw/`. Never overwrite raw uploads; write cleaned data to `data/processed/`.
-3. After new files arrive, run `python -m analysis.inspect_sources` and update `docs/DATA_DICTIONARY.md`.
+3. After new files arrive, run `python3 -m analysis.inspect_sources` and update `docs/DATA_DICTIONARY.md`.
 4. Keep reusable code in `analysis/`. Put exploratory work in `notebooks/`. Put charts, pivots, and written findings in `outputs/`.
 5. Tie every major finding back to a requirement in `docs/REQUIREMENTS.md`.
 6. Prefer pandas + openpyxl for Excel. Export stakeholder-friendly results as CSV/Excel under `outputs/`.

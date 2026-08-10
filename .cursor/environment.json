@@ -1,4 +1,4 @@
 {
   "name": "machine-learning-analysis",
-  "install": "pip install -r requirements.txt"
+  "install": "python3 -m pip install -r requirements.txt"
 }
